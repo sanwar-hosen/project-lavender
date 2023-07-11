@@ -183,6 +183,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 100px;
     padding-inline: 180px;
 }
 
@@ -204,6 +205,58 @@ header {
 
 /* -------------------- */
 
-.insta-pic-container img{
-    
+.insta-txt {
+    text-align: center;
+    padding-inline: 400px;
+}
+
+.insta-pic-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-inline: 100px;
+
+}
+
+.insta-pic-container img {
+    height: 295px;
+
+}
+
+/* --------------------- */
+
+.subscribe {
+    background-image: url(asset/Rectangle\ 9.png);
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    margin: 100px;
+    text-align: center;
+}
+.form-sec{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.sub-button{
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    padding: 13px 18px;
+    border: 0px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: fredoka;
+}
+.subscribe input{
+    width: 500px;
+    height: 50px;
+    border: 0px;
+    padding-inline: 30px;
+    border-radius: 8px;
+}
+#email-box::placeholder{
+    font-family: fredoka;
 }
