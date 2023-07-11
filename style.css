@@ -187,6 +187,10 @@ header {
     padding-inline: 180px;
 }
 
+#off {
+    color: #E55473;
+}
+
 .offer div {
     width: 50%;
 }
@@ -234,13 +238,15 @@ header {
     margin: 100px;
     text-align: center;
 }
-.form-sec{
+
+.form-sec {
     justify-content: center;
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.sub-button{
+
+.sub-button {
     border-radius: 8px;
     background: #E55473;
     color: white;
@@ -250,13 +256,39 @@ header {
     font-weight: 500;
     font-family: fredoka;
 }
-.subscribe input{
+
+.subscribe input {
     width: 500px;
     height: 50px;
     border: 0px;
     padding-inline: 30px;
     border-radius: 8px;
 }
-#email-box::placeholder{
+
+#email-box::placeholder {
     font-family: fredoka;
+}
+
+/* _________________ */
+
+/* foooter section */
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.footer-head {
+    font-family: lato;
+    font-weight: bolder;
+}
+
+.footer-span {
+    color: #E55473;
+}
+
+footer p {
+    font-size: 16px;
+    color: #FFFFFFE5;
 }
