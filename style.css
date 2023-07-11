@@ -1,0 +1,209 @@
+body {
+    font-family: 'Fredoka';
+}
+
+
+
+/* common elements */
+.prime-button {
+    border-radius: 15px;
+    background: #E55473;
+    color: white;
+    padding: 15px 30px;
+    border: 0px;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: fredoka;
+}
+
+.common-heading {
+    color: #272727;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: lato;
+}
+
+.common-des {
+    color: #27272799;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* -------------------------- */
+
+/* Header Section */
+header {
+    background-color: #E554731A;
+    margin: -23px -8px;
+    padding-inline: 120px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(asset/pngwing\ 10.png);
+    background-repeat: no-repeat;
+    background-position: 90% bottom;
+    background-size: auto 600px;
+}
+
+
+.head-text {
+    width: 50%;
+}
+
+.head-pic {
+    margin-bottom: -50px;
+    display: flex;
+}
+
+.header-title {
+    color: #272727;
+    font-family: lato;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-des {
+    color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+/* --------------------- */
+
+/*  flower section- Main*/
+
+.flower-section {
+    margin-block: 140px;
+}
+
+.featured-txt {
+    text-align: center;
+    padding-inline: 350px;
+}
+
+.pic-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 100px;
+}
+
+
+.pic1 {
+    background-image: url(asset/pngwing\ 7.png);
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 375px;
+    background-color: #477D1126;
+    background-size: 230px auto;
+    background-position: bottom center;
+
+}
+
+.pic2 {
+    background-image: url(asset/pngwing\ 6.png);
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+    width: 325px;
+    height: 375px;
+    background-color: #A7216226;
+    background-size: 230px auto;
+    margin-inline: 10px;
+    background-position: bottom center;
+}
+
+.pic3 {
+    background-image: url(asset/pngwing\ 5.png);
+    border-radius: 300px 300px 0px 0px;
+    background-repeat: no-repeat;
+    width: 315px;
+    height: 375px;
+    background-color: #0597A026;
+    background-size: 220px auto;
+    background-position: 60% 70%;
+}
+
+.flowername-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-inline: 100px;
+}
+
+.flowername {
+    font-size: 20px;
+    color: #272727;
+    text-decoration-line: underline;
+    margin-inline: 110px;
+}
+
+/* -------------------------- */
+
+/* info section */
+
+.icon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2727270D;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    margin-inline: 100px;
+
+}
+
+.icon1, .icon2, .icon3 {
+    text-align: center;
+    font-size: 18px;
+    color: #272727CC;
+}
+
+.icon-container p {
+    margin-bottom: 0px;
+}
+
+/* --------------------- */
+
+.offer {
+    background-color: #e5547315;
+    height: 440px;
+    margin-inline: -8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 180px;
+}
+
+.offer div {
+    width: 50%;
+}
+
+.offer-txt {
+    text-align: center;
+}
+
+.offer-pic {
+    background-image: url(asset/pngwing\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 290px;
+}
+
+/* -------------------- */
+
+.insta-pic-container img{
+    
+}
