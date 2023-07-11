@@ -51,14 +51,16 @@ nav {
     font-size: 40px;
     font-family: lato;
 }
-nav span{
+
+nav span {
     color: #E55473;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: white;
 }
+
 .nav-button-container {
     display: flex;
     justify-content: space-around;
@@ -66,7 +68,7 @@ nav a{
     gap: 60px;
 }
 
-.nav-button{
+.nav-button {
     border-radius: 9px;
     background: #e5547300;
     color: #E55473;
@@ -76,16 +78,17 @@ nav a{
     font-weight: 800;
     font-family: fredoka;
 }
-.nav-button:hover{
-        border-radius: 9px;
-        background: #474747;
-        color: #E55473;
-        box-shadow: 0px 0px 40px 0px #474747;
-        padding: 5px 10px;
-        border: 1px solid 474747;
-        font-size: 25px;
-        font-weight: 800;
-        font-family: fredoka;
+
+.nav-button:hover {
+    border-radius: 9px;
+    background: #e5547350;
+    color: #E55473;
+    box-shadow: 0px 0px 40px 0px #47474770;
+    padding: 5px 10px;
+    border: 1px solid 474747;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: fredoka;
 }
 
 /* Header Section */
@@ -276,11 +279,75 @@ header {
 
 .insta-pic-container img {
     height: 295px;
-
+    border-radius: 8px;
 }
 
 /* --------------------- */
+.custom-order {
+    background-color: #0598a02a;
+    margin-inline: -8px;
+    margin-block: 100px;
+    padding-inline: 180px;
+    padding-block: 50px;
+    background-repeat: no-repeat;
+    background-image: url(asset/custom\ order.png);
+    background-size: 30%;
+    background-position: 90% center;
+}
 
+.custom-txt {
+    width: 40%;
+    text-align: left;
+}
+
+.custom-heading {
+    color: #272727;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: lato;
+    margin-block: 0px;
+}
+
+.custom-des {
+    font-size: 16px;
+    color: #000000a1;
+
+}
+
+.custom-txt input, textarea {
+    margin-block: 7px;
+    width: 100%;
+    resize: none;
+    border: 0px;
+    border-radius: 5px;
+    padding-inline: 15px;
+    padding-block: 10px;
+    font-family: fredoka;
+    font-size: 16px;
+}
+
+.custom-txt input::placeholder, textarea::placeholder {
+    font-family: Fredoka;
+    font-size: 16px;
+    color: #0000005e;
+}
+
+.custom-submit {
+    border-radius: 10px;
+    background: #05a086a4;
+    color: #000000a1;
+    padding: 12px 15px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: fredoka;
+    margin-block: 10px;
+    margin-inline: 3px;
+}
+
+/* ---------------------- */
 .subscribe {
     background-image: url(asset/Rectangle\ 9.png);
     border-radius: 8px;
