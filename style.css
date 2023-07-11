@@ -332,6 +332,8 @@ footer {
     text-align: center;
     padding-block: 160px;
     padding-inline: 400px;
+    margin-bottom: -8px;
+    margin-inline: -8px;
 
 }
 
