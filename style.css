@@ -3,7 +3,6 @@ body {
 }
 
 
-
 /* common elements */
 .prime-button {
     border-radius: 15px;
@@ -34,11 +33,65 @@ body {
 }
 
 /* -------------------------- */
+/* NAV section */
+/* this is the extra portion for bonus mark */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+    padding-block: -10px;
+    margin-top: -10px;
+    margin-inline: -8px;
+    background-color: #E554731A;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 40px;
+    font-family: lato;
+}
+nav span{
+    color: #E55473;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav-button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-button{
+    border-radius: 9px;
+    background: #e5547300;
+    color: #E55473;
+    padding: 5px 10px;
+    border: 0px solid #474747;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: fredoka;
+}
+.nav-button:hover{
+        border-radius: 9px;
+        background: #474747;
+        color: #E55473;
+        box-shadow: 0px 0px 40px 0px #474747;
+        padding: 5px 10px;
+        border: 1px solid 474747;
+        font-size: 25px;
+        font-weight: 800;
+        font-family: fredoka;
+}
 
 /* Header Section */
 header {
     background-color: #E554731A;
-    margin: -23px -8px;
+    margin-inline: -8px;
     padding-inline: 120px;
     height: 650px;
     display: flex;
@@ -277,6 +330,9 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
+    padding-block: 160px;
+    padding-inline: 400px;
+
 }
 
 .footer-head {
@@ -289,6 +345,6 @@ footer {
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 14px;
     color: #FFFFFFE5;
 }
